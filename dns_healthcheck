@@ -29,7 +29,7 @@
         /ip dns set servers=$BackupDNS; 
 
         ###### send notification email
-        /tool e-mail send to="$Email" subject="$sysname script notification: Primary DNS $PrimaryDNS down" body="Primary DNS $PrimaryDNS is down.\r\nDNS configuration changed to backup DNS BackupDNS."
+        /tool e-mail send to="$Email" subject="$sysname script notification: Primary DNS $PrimaryDNS down" body="Primary DNS $PrimaryDNS is down.\r\nDNS configuration changed to backup DNS $BackupDNS."
         /log info "notification email to $Email sent";
     }
 }
