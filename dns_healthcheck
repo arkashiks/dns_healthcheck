@@ -1,7 +1,7 @@
 ###### define variables
 
 :local sysname [/system identity get name];
-:local Email "[YOUR EMAIL ADDRESS FOR NOTIFICATIONS HERE]";
+:local Email "[YOUR EMAIL ADDRESS FOR NOTIFICATIONS HERE]"; ###### please configure SMTP in /tools/email to use mail notifications
 
 :local PrimaryDNS "[YOUR PRIMARY DNS IP HERE]";
 :local BackupDNS "1.1.1.1"; #### CloudFare public DNS as backup (better than Google's)
