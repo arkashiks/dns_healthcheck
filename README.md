@@ -7,6 +7,8 @@ One of the issues which drived me to create this is Mikrotik RouterOS's build it
 
 To solve this, in the even DNS is not reachable, script will set temporary CLoudFare DNS 1.1.1.1. Once firewall will observe IP address change and update itself, script will verify that original DNS is available again and will revert back to original configuration.
 
-Please note: in my setup I'm using single DNS configuration on Mikrotik side. This script may not work if you have two DNS servers configured and may require update.
+Please note: in my setup I'm using single DNS configuration on Mikrotik side. This script may not work if you have two DNS servers configured and may require update for variable $ConfiguredDNS.
 
 Also, please fill variables and configure SMTP if you want to receive email message on event, otherwise comment lines where you specify your email address as variable and lines where email is generated and sent.
+
+Schedule this script exectuion as you see fit. In my case, I'm using 300 seconds delay between script execution.
