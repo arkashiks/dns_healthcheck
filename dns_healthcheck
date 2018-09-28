@@ -1,3 +1,5 @@
+###### update variables as needed
+
 :local sysname [/system identity get name];
 :local Email "[YOUR EMAIL ADDRESS FOR NOTIFICATIONS HERE]";
 
