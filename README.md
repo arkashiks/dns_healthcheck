@@ -1,4 +1,4 @@
-# routeros_dns_healthcheck
+# dns_healthcheck
 Mikrotik RouterOS script to check DNS service and update it if required
 
 This script is used on my Mikrotik devices in combination with Pi-Hole to block ADS. Since I have dynamic IP and my Pi-Hole is in cloud behind firewall, I need to make sure that DNS service is available on the event my IP has changed and firewall rules in cloud didn't adapt to that change yet.
