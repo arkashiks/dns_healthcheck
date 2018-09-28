@@ -9,4 +9,4 @@ To solve this, in the even DNS is not reachable, script will set temporary CLoud
 
 Please note: in my setup I'm using single DNS configuration on Mikrotik side. This script may not work if you have two DNS servers configured and may require update.
 
-Also, please fill variables and configure SMTP if you want to receive email message on event, otherwise disable email sending lines.
+Also, please fill variables and configure SMTP if you want to receive email message on event, otherwise comment lines where you specify your email address as variable and lines where email is generated and sent.
