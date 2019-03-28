@@ -11,8 +11,8 @@ To solve this, in the event DNS is not reachable, script will set temporary Clou
 
 Please note: in my setup I'm using single DNS configuration on Mikrotik side. This script may not work if you have two DNS servers configured and may require update for variable $ConfiguredDNS.
 
-Also, please fill variables and configure SMTP if you want to receive email message on event, otherwise comment lines where you specify your email address as variable and lines where email is generated and sent. Email configuration is done in Tools > Email menu. 
+Also, please fill variables and configure SMTP if you want to receive email message on event, otherwise comment lines where you specify your email address as variable and lines where email is generated and sent. Email configuration is done in Tools > Email menu.
 
-Schedule this script exectuion as you see fit. In my case, I'm using 300 seconds delay between script execution.
+Schedule this script execution as you see fit. In my case, I'm using 300 seconds delay between script execution.
 
 For more info about Mikrotik's RouterOS scripting please check official Wiki https://wiki.mikrotik.com/wiki/Manual:Scripting
