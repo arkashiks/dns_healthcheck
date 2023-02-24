@@ -1,4 +1,4 @@
-###### define variables
+###### define variables here
 
 :local sysname [/system identity get name];
 :local Email "[YOUR EMAIL ADDRESS FOR NOTIFICATIONS HERE]"; ###### please configure SMTP in /tools/email to use mail notifications
